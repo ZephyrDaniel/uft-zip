@@ -126,6 +126,7 @@ public class ParallelRunner extends Thread {
 				e.printStackTrace();
 			}
 		}
+		@SuppressWarnings("rawtypes")
 		List lines = FileUtils.readLines(file);
 		logger.info("total lines are" + (lines==null?"NULL":lines.size()));
 		for (Object line : lines){

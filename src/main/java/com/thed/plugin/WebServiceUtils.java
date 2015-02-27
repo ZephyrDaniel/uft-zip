@@ -214,6 +214,7 @@ public class WebServiceUtils {
 	 * @return
 	 * @throws IOException
 	 */
+	@SuppressWarnings("resource")
 	private byte[] getBytes(File file) throws IOException {
 		InputStream is = new FileInputStream(file);
 		long length = file.length();
