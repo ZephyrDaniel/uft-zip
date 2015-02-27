@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.8.1/junit-4.8.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/snoozesoft/systray4j/1.0/systray4j-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/tanukisoftware/wrapper/3.3.1/wrapper-3.3.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/ZBot/lib/zephyr-socket-server-4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Daniel.Gannon/Downloads/commons-io-2.4-bin/commons-io-2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
