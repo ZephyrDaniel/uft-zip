@@ -80,7 +80,7 @@ public class FileUtils {
 	}
 	
 	public static void main(String [] args){
-		System.out.println(FileUtils.findCurrentResultFolder("\"C:\\shared\\irwin-mitchel\""));
+		System.out.println(FileUtils.findCurrentResultFolder("\"C:\\shared\\""));
 	}
 
 }
